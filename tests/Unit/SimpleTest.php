@@ -11,7 +11,6 @@ class SimpleTest extends TestCase
         $this->assertTrue(true);
     }
 
-
     public function testFalse()
     {
         $this->assertFalse(false);

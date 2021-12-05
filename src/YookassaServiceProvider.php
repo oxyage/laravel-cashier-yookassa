@@ -2,9 +2,9 @@
 
 namespace Oxyage\Laravel\Yookassa;
 
+use Oxyage\Laravel\Yookassa\Commands\YookassaCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Oxyage\Laravel\Yookassa\Commands\YookassaCommand;
 
 class YookassaServiceProvider extends PackageServiceProvider
 {

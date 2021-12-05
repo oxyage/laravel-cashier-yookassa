@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Oxyage\\Laravel\Yookassa\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class YookassaCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-cashier-yookassa';
 
     public $description = 'My command';
 

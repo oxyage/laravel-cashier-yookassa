@@ -2,7 +2,6 @@
 
 namespace Oxyage\Laravel\Yookassa;
 
-use Oxyage\Laravel\Yookassa\Commands\YookassaCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -18,8 +17,7 @@ class YookassaServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-cashier-yookassa')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-cashier-yookassa_table')
-            ->hasCommand(YookassaCommand::class);
+            ->hasViews();
+//            ->hasMigration('create_laravel-cashier-yookassa_table');
     }
 }

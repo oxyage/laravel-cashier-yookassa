@@ -16,9 +16,10 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.73",
         "spatie/laravel-package-tools": "^1.9.2",
-        "illuminate/contracts": "^8.73"
+        "yoomoney/yookassa-sdk-php": "^2.2"
     },
     "require-dev": {
         "nunomaduro/collision": "^5.10",
@@ -30,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Oxyage\Laravel\\Yookassa\\": "src",
-            "Oxyage\Laravel\\Yookassa\\Database\\Factories\\": "database/factories"
+            "Oxyage\\Laravel\\Yookassa\\": "src",
+            "Oxyage\\Laravel\\Yookassa\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Oxyage\Laravel\\Yookassa\\Tests\\": "tests"
+            "Oxyage\\Laravel\\Yookassa\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Oxyage\Laravel\\Yookassa\\YookassaServiceProvider"
+                "Oxyage\\Laravel\\Yookassa\\YookassaServiceProvider"
             ],
             "aliases": {
-                "Yookassa": "Oxyage\Laravel\\Yookassa\\Facades\\Yookassa"
+                "Yookassa": "Oxyage\\Laravel\\Yookassa\\Facades\\Yookassa"
             }
         }
     },

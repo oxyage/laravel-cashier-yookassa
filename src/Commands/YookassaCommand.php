@@ -1,6 +1,6 @@
 <?php
 
-namespace Oxyage\\Laravel\Yookassa\Commands;
+namespace Oxyage\Laravel\Yookassa\Commands;
 
 use Illuminate\Console\Command;
 

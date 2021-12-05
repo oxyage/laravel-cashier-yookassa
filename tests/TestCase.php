@@ -1,10 +1,10 @@
 <?php
 
-namespace Oxyage\\Laravel\Yookassa\Tests;
+namespace Oxyage\Laravel\Yookassa\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Oxyage\\Laravel\Yookassa\YookassaServiceProvider;
+use Oxyage\Laravel\Yookassa\YookassaServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Oxyage\\Laravel\\Yookassa\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Oxyage\Laravel\\Yookassa\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

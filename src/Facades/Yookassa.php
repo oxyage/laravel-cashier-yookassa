@@ -1,11 +1,11 @@
 <?php
 
-namespace Oxyage\\Laravel\Yookassa\Facades;
+namespace Oxyage\Laravel\Yookassa\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Oxyage\\Laravel\Yookassa\Yookassa
+ * @see \Oxyage\Laravel\Yookassa\Yookassa
  */
 class Yookassa extends Facade
 {

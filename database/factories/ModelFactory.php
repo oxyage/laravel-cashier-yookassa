@@ -1,6 +1,6 @@
 <?php
 
-namespace Oxyage\\Laravel\Yookassa\Database\Factories;
+namespace Oxyage\Laravel\Yookassa\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

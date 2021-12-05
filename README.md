@@ -61,7 +61,7 @@ return [
 ## Usage
 
 ```php
-$laravel-cashier-yookassa = new Oxyage\\Laravel\Yookassa();
+$laravel-cashier-yookassa = new Oxyage\Laravel\Yookassa();
 echo $laravel-cashier-yookassa->echoPhrase('Hello, Oxyage\\Laravel!');
 ```
 

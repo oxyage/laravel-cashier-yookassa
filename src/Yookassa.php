@@ -1,6 +1,6 @@
 <?php
 
-namespace Oxyage\\Laravel\Yookassa;
+namespace Oxyage\Laravel\Yookassa;
 
 class Yookassa
 {

@@ -61,8 +61,8 @@ return [
 ## Usage
 
 ```php
-$laravel-cashier-yookassa = new Oxyage\Laravel\Yookassa();
-echo $laravel-cashier-yookassa->echoPhrase('Hello, Oxyage\\Laravel!');
+$laravel_cashier_yookassa = new Oxyage\Laravel\Yookassa\Yookassa();
+echo $laravel_cashier_yookassa->echoPhrase('Hello, package!');
 ```
 
 ## Testing
@@ -79,14 +79,14 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
-## Security Vulnerabilities
+<!--## Security Vulnerabilities-->
 
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+<!--Please review [our security policy](../../security/policy) on how to report security vulnerabilities.-->
 
 ## Credits
 
 - [Varseev Stepan](https://github.com/oxyage)
-- [All Contributors](../../contributors)
+<!--- [All Contributors](../../contributors)-->
 
 ## License
 
